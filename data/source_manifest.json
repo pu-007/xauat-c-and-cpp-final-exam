@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S1",
+    "name": "C语言习题全集_答案.pdf",
+    "pages": 133,
+    "sha256": "c46064eaa71a5d6081c2e8a603712bcaaebfe76d9c17ddee8f89f697fc460bcf",
+    "source_path": "raw/01_基础题库与模拟卷_含部分答案.pdf",
+    "characters": 127974,
+    "uploaded_path": "/workspace/.codex-attachments/3dd4db9f-3d91-42fe-a0c4-ab7f17cb8c57/2afd84e1-655f-4c94-a52f-b3a3c47dd05f/C语言习题全集_答案.pdf"
+  },
+  {
+    "id": "S2",
+    "name": "C语言期末考试练习题_带详解答案_.pdf",
+    "pages": 55,
+    "sha256": "380e2cbb29f9ff40948ea1d8b70a041c8e3fc70c11f205a8de54fa232a70cfd9",
+    "source_path": "raw/02_期末练习题_附详解答案.pdf",
+    "characters": 54109,
+    "uploaded_path": "/workspace/.codex-attachments/3dd4db9f-3d91-42fe-a0c4-ab7f17cb8c57/a2b0c7aa-6bba-4372-9adc-e3e4ebe0a8aa/C语言期末考试练习题_带详解答案_.pdf"
+  },
+  {
+    "id": "S3",
+    "name": "24级大一C语言期中考试真题.pdf",
+    "pages": 4,
+    "sha256": "7254b0c784d988093873fab2fe662c9574eb404ec0f1a4fb97a64ca779e6467b",
+    "source_path": "raw/03_24级期中资料_卷面标注模拟试题.pdf",
+    "characters": 3255,
+    "uploaded_path": "/workspace/.codex-attachments/3dd4db9f-3d91-42fe-a0c4-ab7f17cb8c57/ab2f436a-f415-44c4-a515-0ef97c863007/24级大一C语言期中考试真题.pdf"
+  },
+  {
+    "id": "S4",
+    "name": "大一C语言期末考试复习资料 .pdf",
+    "pages": 5,
+    "sha256": "98e276d4833bc56191758737eabec15b2d45d1388f79cf121adab5115ba44d21",
+    "source_path": "raw/04_期末复习知识提纲.pdf",
+    "characters": 5929,
+    "uploaded_path": "/workspace/.codex-attachments/3dd4db9f-3d91-42fe-a0c4-ab7f17cb8c57/cf04e99b-639f-46d5-acb9-1389f06ec46d/大一C语言期末考试复习资料 .pdf"
+  },
+  {
+    "id": "S5",
+    "name": "C语言程序设计重点习题代码.pdf",
+    "pages": 9,
+    "sha256": "54fd48676ba37272cc3d30872783bba8edbcebd96635306f43668a77001a4da6",
+    "source_path": "raw/05_程序设计重点习题代码.pdf",
+    "characters": 29597,
+    "uploaded_path": "/workspace/.codex-attachments/3dd4db9f-3d91-42fe-a0c4-ab7f17cb8c57/41f1ee0e-16e3-4d4d-81b8-065f050fdd63/C语言程序设计重点习题代码.pdf"
+  },
+  {
+    "id": "S6",
+    "name": "C语言程序设计上机实验报告.pdf",
+    "pages": 52,
+    "sha256": "b188eb3c83e1934d0005659633eb0892e10ece483a5f6fc5cc976daf8ff006be",
+    "source_path": "raw/06_程序设计上机实验报告_六次实验.pdf",
+    "characters": 35251,
+    "uploaded_path": "/workspace/.codex-attachments/c4ffc316-ae61-43fe-b3b2-087941dde52c/e0c4222c-97da-4fd2-973e-75b4869a2a4a/C语言程序设计上机实验报告.pdf"
+  }
+]

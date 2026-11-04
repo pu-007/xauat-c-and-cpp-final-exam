@@ -1,0 +1,19 @@
+% 手机阅读：108×192mm单栏窄页、中文自动断行、代码折行，不依赖xeCJK。
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{fvextra}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small,breaksymbolleft={},breakautoindent=true}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize 大一 C 语言指南}
+\fancyhead[R]{\footnotesize C99 / C++11}
+\fancyfoot[C]{\small\thepage}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\linespread{1.12}
+\let\originaltableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{\clearpage\originaltableofcontents\clearpage}
+\renewcommand{\contentsname}{目录}
+\AtBeginDocument{\hypersetup{bookmarksnumbered=false,bookmarksopen=true,bookmarksopenlevel=1}}

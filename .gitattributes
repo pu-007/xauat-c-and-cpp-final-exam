@@ -1,0 +1,9 @@
+# CSV使用标准CRLF；PDF抽取文本保留原排版空格，不对这些资料做空白清理。
+data/*.csv -whitespace
+data/sources/*.txt -whitespace
+raw/*.pdf binary
+*.c text eol=lf
+*.cpp text eol=lf
+*.py text eol=lf
+*.lua text eol=lf
+*.md text eol=lf

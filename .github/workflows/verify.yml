@@ -1,0 +1,11 @@
+name: C99 and C++11 checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make -j2
+      - run: make test
+      - run: make stats && python3 tools/check_repo.py
+      - run: make sanitize

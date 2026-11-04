@@ -1,0 +1,48 @@
+{
+  "standards": {
+    "c": "c99",
+    "cpp": "c++11"
+  },
+  "pairs": 45,
+  "compiler": "GCC/G++ 14.2.0",
+  "normal": {
+    "core_process_assertions": 1264,
+    "lab_process_assertions": 108,
+    "magic_square_checks": 10,
+    "persistent_file_pipelines": 2,
+    "status": "passed"
+  },
+  "sanitizers": {
+    "address": true,
+    "undefined": true,
+    "leaks": true,
+    "status": "passed",
+    "environment_note": "LeakSanitizer first failed under ptrace sandbox; identical instrumented binaries passed outside that restriction with detect_leaks=1"
+  },
+  "source_pdfs": 6,
+  "source_pages": 258,
+  "numbered_question_occurrences": 695,
+  "lab_tasks": 26,
+  "xmake": {
+    "version": "3.1.2",
+    "targets": 90,
+    "build": "passed",
+    "check": "passed"
+  },
+  "pdf": {
+    "builder": "Pandoc 3.1.11.1 + XeLaTeX + PyMuPDF",
+    "layout": "108×192 mm single-column, 12pt body",
+    "raw_pages": 258,
+    "validation_script": "tools/check_pdf.py",
+    "status": "passed",
+    "mobile_pages": 505,
+    "complete_pages": 763,
+    "markdown_files": 74,
+    "teaching_code_files": 90,
+    "tool_code_files": 15,
+    "internal_links": 416,
+    "fonts_embedded": 4,
+    "page_overflow_words": 0,
+    "raw_page_comparisons": 258
+  }
+}

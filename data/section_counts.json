@@ -1,0 +1,560 @@
+[
+  {
+    "source": "S1",
+    "section": "程序基础",
+    "type": "选择",
+    "count": 15,
+    "start": 2,
+    "end": 3,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "程序基础",
+    "type": "填空",
+    "count": 6,
+    "start": 2,
+    "end": 3,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "顺序与输入输出",
+    "type": "选择",
+    "count": 7,
+    "start": 4,
+    "end": 7,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "顺序与输入输出",
+    "type": "读程序",
+    "count": 7,
+    "start": 4,
+    "end": 7,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "顺序与输入输出",
+    "type": "填空",
+    "count": 5,
+    "start": 4,
+    "end": 7,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "顺序与输入输出",
+    "type": "编程",
+    "count": 5,
+    "start": 4,
+    "end": 7,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "分支",
+    "type": "选择",
+    "count": 8,
+    "start": 8,
+    "end": 14,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "分支",
+    "type": "读程序",
+    "count": 6,
+    "start": 8,
+    "end": 14,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "分支",
+    "type": "填空",
+    "count": 6,
+    "start": 8,
+    "end": 14,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "分支",
+    "type": "编程",
+    "count": 7,
+    "start": 8,
+    "end": 14,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "循环",
+    "type": "选择",
+    "count": 6,
+    "start": 15,
+    "end": 23,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "循环",
+    "type": "读程序",
+    "count": 10,
+    "start": 15,
+    "end": 23,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "循环",
+    "type": "填空",
+    "count": 7,
+    "start": 15,
+    "end": 23,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "循环",
+    "type": "编程",
+    "count": 23,
+    "start": 15,
+    "end": 23,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "数组",
+    "type": "选择",
+    "count": 7,
+    "start": 24,
+    "end": 34,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "数组",
+    "type": "读程序",
+    "count": 8,
+    "start": 24,
+    "end": 34,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "数组",
+    "type": "填空",
+    "count": 9,
+    "start": 24,
+    "end": 34,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "数组",
+    "type": "编程",
+    "count": 25,
+    "start": 24,
+    "end": 34,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "函数",
+    "type": "选择",
+    "count": 13,
+    "start": 35,
+    "end": 42,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "函数",
+    "type": "读程序",
+    "count": 11,
+    "start": 35,
+    "end": 42,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "函数",
+    "type": "填空",
+    "count": 4,
+    "start": 35,
+    "end": 42,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "函数",
+    "type": "编程",
+    "count": 14,
+    "start": 35,
+    "end": 42,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "指针",
+    "type": "选择",
+    "count": 36,
+    "start": 43,
+    "end": 61,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "指针",
+    "type": "读程序",
+    "count": 27,
+    "start": 43,
+    "end": 61,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "指针",
+    "type": "填空",
+    "count": 4,
+    "start": 43,
+    "end": 61,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "指针",
+    "type": "编程",
+    "count": 10,
+    "start": 43,
+    "end": 61,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "结构体共用体",
+    "type": "选择",
+    "count": 16,
+    "start": 62,
+    "end": 78,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "结构体共用体",
+    "type": "读程序",
+    "count": 8,
+    "start": 62,
+    "end": 78,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "结构体共用体",
+    "type": "填空",
+    "count": 10,
+    "start": 62,
+    "end": 78,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "结构体共用体",
+    "type": "编程",
+    "count": 10,
+    "start": 62,
+    "end": 78,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "文件",
+    "type": "选择",
+    "count": 6,
+    "start": 79,
+    "end": 82,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "文件",
+    "type": "填空",
+    "count": 4,
+    "start": 79,
+    "end": 82,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "文件",
+    "type": "编程",
+    "count": 8,
+    "start": 79,
+    "end": 82,
+    "method": "逐节末题号核对；填空不拆子问"
+  },
+  {
+    "source": "S1",
+    "section": "附加题",
+    "type": "综合编程",
+    "count": 94,
+    "start": 83,
+    "end": 102,
+    "method": "题号1–94；94跨p99–102"
+  },
+  {
+    "source": "S1",
+    "section": "模拟一",
+    "type": "选择",
+    "count": 10,
+    "start": 103,
+    "end": 109,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟一",
+    "type": "读程序",
+    "count": 7,
+    "start": 103,
+    "end": 109,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟一",
+    "type": "程序填空",
+    "count": 3,
+    "start": 103,
+    "end": 109,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟一",
+    "type": "概念填空",
+    "count": 7,
+    "start": 103,
+    "end": 109,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟一",
+    "type": "编程",
+    "count": 3,
+    "start": 103,
+    "end": 109,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟二",
+    "type": "选择",
+    "count": 10,
+    "start": 109,
+    "end": 115,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟二",
+    "type": "读程序",
+    "count": 7,
+    "start": 109,
+    "end": 115,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟二",
+    "type": "程序填空",
+    "count": 3,
+    "start": 109,
+    "end": 115,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟二",
+    "type": "概念填空",
+    "count": 7,
+    "start": 109,
+    "end": 115,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟二",
+    "type": "编程",
+    "count": 3,
+    "start": 109,
+    "end": 115,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟三",
+    "type": "选择",
+    "count": 15,
+    "start": 115,
+    "end": 121,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟三",
+    "type": "读程序",
+    "count": 5,
+    "start": 115,
+    "end": 121,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟三",
+    "type": "程序填空",
+    "count": 4,
+    "start": 115,
+    "end": 121,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟三",
+    "type": "概念填空",
+    "count": 10,
+    "start": 115,
+    "end": 121,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S1",
+    "section": "模拟三",
+    "type": "编程",
+    "count": 4,
+    "start": 115,
+    "end": 121,
+    "method": "卷面一级题号；分值见papers.json"
+  },
+  {
+    "source": "S2",
+    "section": "选择",
+    "type": "选择",
+    "count": 43,
+    "start": 1,
+    "end": 7,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "读程序-控制",
+    "type": "读程序",
+    "count": 21,
+    "start": 8,
+    "end": 21,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "读程序-数组",
+    "type": "读程序",
+    "count": 13,
+    "start": 22,
+    "end": 31,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "读程序-函数",
+    "type": "读程序",
+    "count": 8,
+    "start": 31,
+    "end": 36,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "读程序-指针",
+    "type": "读程序",
+    "count": 7,
+    "start": 36,
+    "end": 40,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "读程序-结构体",
+    "type": "读程序",
+    "count": 4,
+    "start": 40,
+    "end": 41,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "程序填空",
+    "type": "程序填空",
+    "count": 8,
+    "start": 42,
+    "end": 44,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "程序改错",
+    "type": "改错",
+    "count": 8,
+    "start": 45,
+    "end": 49,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S2",
+    "section": "编程",
+    "type": "编程",
+    "count": 13,
+    "start": 50,
+    "end": 55,
+    "method": "逐节题号核对；无标点的10/20/改错6也计入"
+  },
+  {
+    "source": "S3",
+    "section": "选择",
+    "type": "选择",
+    "count": 15,
+    "start": 1,
+    "end": 2,
+    "method": "简答1含5个子问，按1题计"
+  },
+  {
+    "source": "S3",
+    "section": "判断",
+    "type": "判断",
+    "count": 10,
+    "start": 2,
+    "end": 2,
+    "method": "简答1含5个子问，按1题计"
+  },
+  {
+    "source": "S3",
+    "section": "简答",
+    "type": "简答",
+    "count": 4,
+    "start": 2,
+    "end": 3,
+    "method": "简答1含5个子问，按1题计"
+  },
+  {
+    "source": "S3",
+    "section": "编程",
+    "type": "编程",
+    "count": 1,
+    "start": 4,
+    "end": 4,
+    "method": "简答1含5个子问，按1题计"
+  }
+]

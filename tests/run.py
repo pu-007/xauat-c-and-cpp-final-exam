@@ -24,6 +24,23 @@ def main():
     for n in [-9,0,1,2,3,4,25,49,97,99991,1000000000]:check('08_prime',str(n),f'{int(prime(n))}\n')
     for n in [0,1,20,100,1000]:check('30_big_integer',str(n),str(math.factorial(n))+'\n')
     for n,count in [(1,1),(2,0),(3,0),(4,2),(5,10),(6,4),(7,40),(9,352),(10,724)]:check('28_queens',str(n),str(count)+'\n')
+    for x,root in [('0','0.000000'),('2.49999e-13','0.000000'),('2.50001e-13','0.000001'),('1e12','1000000.000000')]:
+        check('32_numerical',x+'\n',root+' 3.141591\n')
+    check('47_matrix_row_sums',('-1 '*5+'-1\n')*5,('-1 -1 -1 -1 -1 -1 | -6\n')*5)
+    check('49_min_to_end','1\n-9\n','-9\n')
+    check('49_min_to_end','4\n2 1 1 3\n','2 3 1 1\n')
+    check('50_sign_count',('0 '*9+'0\n'),'0 0 10\n')
+    check('51_course_max',''.join(f'{i+1} {100-i} {i*3}\n' for i in range(20)),'20 100 57\n')
+    check('52_prime_twenty',('1 '*19+'1\n'),'\n')
+    check('52_prime_twenty','2 2 1 4 9 25 49 121 16 8 3 3 5 6 7 10 11 12 13 14\n','2 2 3 3 5 7 11 13\n')
+    check('52_prime_twenty','0\n',code=1)
+    for data,expected in [('([)]\n','0\n'),('\n','1\n'),('()[]{}\r\n','1\n'),('('*50+')'*50+'\n','1\n')]:
+        check('53_bracket_stack',data,expected)
+    for data in ['','('*101+'\n','()a\n','()\x00\n']:
+        check('53_bracket_stack',data,'',code=1)
+    check('47_matrix_row_sums','10001\n',code=1)
+    check('49_min_to_end','0\n',code=1)
+    check('51_course_max','101\n',code=1)
     for n in [0,1,2,30,100]:check('23_sieve',str(n),line([x for x in range(2,n+1) if prime(x)]))
     for s in ['', ' ', 'a  b\tC','AEIOUxyz']:
         vowels=''.join(c for c in s if c in 'aeiouAEIOU'); check('16_words_vowels',s+'\n',f'{len(s.split())}\n{vowels}\n'+''.join(sorted(s))+'\n')

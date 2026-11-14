@@ -7,6 +7,8 @@ from build_pdf import collect
 R=Path(__file__).resolve().parents[1]
 manifest=json.loads((R/'dist/pdf_manifest.json').read_text())
 docs,code,extra=collect()
+for path in docs+code+extra:
+    assert '.kilo' not in path.relative_to(R).parts, f'PDF includes a separate worktree: {path}'
 assert manifest['markdown_files']==[str(p.relative_to(R)) for p in docs]
 assert manifest['teaching_code_files']==[str(p.relative_to(R)) for p in code]
 assert manifest['tool_code_files']==[str(p.relative_to(R)) for p in extra]

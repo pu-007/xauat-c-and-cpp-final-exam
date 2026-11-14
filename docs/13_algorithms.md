@@ -58,3 +58,5 @@
 ## 拓展到C++11的下一步
 
 学完vector/string后，再练map/unordered_map做频次、set去重、priority_queue做优先级搜索、stack处理括号。默认优先选择能清晰表达所有权的标准容器。理解迭代器有效期：vector扩容会使原指针/引用/迭代器失效，不能边push_back边继续使用旧地址。
+
+按数组、链表、栈、队列到回溯、BFS、动态规划的学习顺序，以及可视化和外部教程入口，见[数据结构与算法拓展](21_data_structures_algorithms.md)。

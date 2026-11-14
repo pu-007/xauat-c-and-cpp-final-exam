@@ -14,7 +14,7 @@ xmake run cpp_03_grade
 xmake check
 ```
 
-`xmake`构建全部90个独立程序。C目标名以`c_`开头，C++目标名以`cpp_`开头。例如`c_44_reservations`是订餐链表版。生成文件在`build/xmake/c/`与`build/xmake/cpp/`。
+`xmake`构建全部106个独立程序。C目标名以`c_`开头，C++目标名以`cpp_`开头。例如`c_44_reservations`是订餐链表版。生成文件在`build/xmake/c/`与`build/xmake/cpp/`。
 
 运行成绩程序后若终端暂时空白，输入一个0–100的整数并回车，例如100。
 
@@ -73,7 +73,7 @@ python3 tools/build_pdf.py
 
 |文件|收录内容|适合用途|
 |---|---|---|
-|大一C语言全面指南_C99_CPP11_手机版.pdf|全部Markdown文档、45组C/C++完整源码、构建和辅助脚本|手机离线学习、看代码、做题复盘|
+|大一C语言全面指南_C99_CPP11_手机版.pdf|全部Markdown文档、53组C/C++完整源码、构建和辅助脚本|手机离线学习、看代码、做题复盘|
 |大一C语言全面指南_C99_CPP11_含全部原始资料.pdf|手机版全部内容，再加raw里的6份原始PDF，共258页原件|查原题、对原答案、核对出处|
 
 两个文件都在dist目录。`dist/pdf_manifest.json`列出每个收录文件及其SHA-256，方便检查有没有漏文档或代码。临时排版文件和日志位于`build/pdf/`。

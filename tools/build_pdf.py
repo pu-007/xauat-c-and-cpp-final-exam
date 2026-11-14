@@ -9,7 +9,7 @@ import argparse,hashlib,json,os,re,shutil,subprocess,sys,time,unicodedata
 from urllib.parse import unquote
 
 ROOT=Path(__file__).resolve().parents[1]
-EXCLUDED={'build','dist','.git','.xmake','__pycache__'}
+EXCLUDED={'build','dist','.git','.kilo','.xmake','__pycache__'}
 MOBILE='大一C语言全面指南_C99_CPP11_手机版.pdf'
 COMPLETE='大一C语言全面指南_C99_CPP11_含全部原始资料.pdf'
 
@@ -33,7 +33,7 @@ def collect():
     docs=list(dict.fromkeys(p for p in ordered if p in all_md))
     code=[]
     for e in json.loads((ROOT/'data/examples.json').read_text()):
-        code += [ROOT/f'src/c/{e["id"]}.c',ROOT/f'src/cpp/{e["id"]}.cpp']
+        code += [ROOT/f'src/{e["id"]}.c',ROOT/f'src/{e["id"]}.cpp']
     extra=sorted(p for p in ROOT.rglob('*') if p.is_file() and included(p) and (p.suffix in {'.py','.lua','.tex','.yml','.yaml'} or p.name in {'Makefile','.clang-format','requirements-pdf.txt'}) and p not in code)
     assert set(docs)==all_md
     assert set(code)=={p for p in (ROOT/'src').rglob('*') if p.suffix in {'.c','.cpp'}}

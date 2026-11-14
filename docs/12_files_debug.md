@@ -41,7 +41,7 @@ fclose(fp);
 5. 崩溃时看调用栈（backtrace），从第一次错误数据出现处修。
 
 ```bash
-gcc -std=c99 -g -O0 src/c/17_pointers.c -o pointers
+gcc -std=c99 -g -O0 src/17_pointers.c -o pointers
 gdb ./pointers
 # break main / run / next / print x / print *p / backtrace
 ```

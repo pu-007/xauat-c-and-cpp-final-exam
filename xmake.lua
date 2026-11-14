@@ -3,10 +3,10 @@ set_version("1.0.0")
 set_xmakever("2.9.0")
 add_rules("mode.debug", "mode.release")
 
--- 每个源文件都是独立练习，不能把90个main链接进同一个程序。
+-- 每个源文件都是独立练习，不能把多个main链接进同一个程序。
 for _, language in ipairs({"c", "cpp"}) do
     local extension = language == "c" and ".c" or ".cpp"
-    for _, source in ipairs(os.files("src/" .. language .. "/*" .. extension)) do
+    for _, source in ipairs(os.files("src/*" .. extension)) do
         local slug = path.basename(source)
         target(language .. "_" .. slug)
             set_kind("binary")

@@ -6,7 +6,7 @@ import json,re,hashlib
 R=Path(__file__).resolve().parents[1]
 errors=[];links=0
 for path in R.rglob('*.md'):
-    if '.git' in path.parts:continue
+    if any(part in {'.git','.kilo','build','dist','.xmake'} for part in path.relative_to(R).parts):continue
     text=path.read_text()
     text=re.sub(r'```.*?```','',text,flags=re.S)
     text=re.sub(r'`[^`]*`','',text)
@@ -15,9 +15,9 @@ for path in R.rglob('*.md'):
         target=unquote(target.split('#')[0]).strip('<>')
         if not (path.parent/target).exists():errors.append(f'{path.relative_to(R)}: {target}')
         links+=1
-examples=json.loads((R/'data/examples.json').read_text());assert len(examples)==45
+examples=json.loads((R/'data/examples.json').read_text());assert len(examples)==53 and len({e['id'] for e in examples})==len(examples)
 for e in examples:
-    for lang in ['c','cpp']:assert (R/f'src/{lang}/{e["id"]}.{lang}').is_file()
+    for lang in ['c','cpp']:assert (R/f'src/{e["id"]}.{lang}').is_file()
     for suffix,key in [('in','sample'),('out','expected')]:assert (R/f'tests/cases/{e["id"]}.{suffix}').read_text()==e[key]
     assert (R/f'practice/tasks/{e["id"]}.md').is_file()
 manifest=json.loads((R/'data/source_manifest.json').read_text());assert len(manifest)==6 and sum(s['pages'] for s in manifest)==258
@@ -27,4 +27,4 @@ for s in manifest:
 counts=json.loads((R/'data/section_counts.json').read_text());assert sum(r['count'] for r in counts)==695
 for e in errors:print('BROKEN:',e)
 assert not errors
-print(f'PASS repository: {links} local links, 45 paired examples, 6 PDFs / 258 pages, 695 numbered occurrences')
+print(f'PASS repository: {links} local links, {len(examples)} paired examples, 6 PDFs / 258 pages, 695 numbered occurrences')

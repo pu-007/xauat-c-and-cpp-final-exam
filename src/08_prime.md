@@ -27,7 +27,7 @@
 3. 输入97时，2～9均不能整除它，因此输出1；检查 1、2、9 和 25 可覆盖定义、最小素数和完全平方数。
 4. 对 `n≥2`，时间 O(√n)、空间 O(1)。C99 通过 `<stdbool.h>` 使用 `bool`；C++ 内置 `bool`，两版分别用格式化输入输出和流。
 
-完成后对照：[C99](../../src/08_prime.c) / [C++11](../../src/08_prime.cpp)。区间素数和筛选排序分别练习[48](48_prime_interval.md)和[52](52_prime_twenty.md)。
+完成后对照：[C99](./08_prime.c) / [C++11](./08_prime.cpp)。区间素数和筛选排序分别练习[48](48_prime_interval.md)和[52](52_prime_twenty.md)。
 
 ```bash
 ./build/c/08_prime < tests/cases/08_prime.in

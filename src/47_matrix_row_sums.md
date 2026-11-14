@@ -38,7 +38,7 @@
 
 ## 编译与运行
 
-源码：[C99](../../src/47_matrix_row_sums.c) / [C++11](../../src/47_matrix_row_sums.cpp)。
+源码：[C99](./47_matrix_row_sums.c) / [C++11](./47_matrix_row_sums.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/47_matrix_row_sums.c -o /tmp/47_c

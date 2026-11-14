@@ -31,7 +31,7 @@
 
 时间和空间 O(1)。C 用普通枚举和指定成员初始化，C++ 用限定作用域的 `enum class` 和重载构造函数。
 
-完成后对照：[C99](../../src/35_union_enum.c) / [C++11](../../src/35_union_enum.cpp)。
+完成后对照：[C99](./35_union_enum.c) / [C++11](./35_union_enum.cpp)。
 
 ```bash
 ./build/c/35_union_enum < tests/cases/35_union_enum.in

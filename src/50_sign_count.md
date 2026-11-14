@@ -20,7 +20,7 @@
 
 用三个计数器分别记录三种情况，逐项比较并且只增加对应计数器。时间 O(10)，额外空间 O(1)。C 使用 `scanf` 和 `printf`，C++ 使用输入输出流。
 
-源码：[C99](../../src/50_sign_count.c) / [C++11](../../src/50_sign_count.cpp)。
+源码：[C99](./50_sign_count.c) / [C++11](./50_sign_count.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/50_sign_count.c -o /tmp/50_sign_count_c

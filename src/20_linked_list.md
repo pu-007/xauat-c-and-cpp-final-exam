@@ -21,7 +21,7 @@
 
 边界练习：`0 2` 输出空行；`3 7` 后接 `7 7 7` 也输出空行；`3 2` 后接 `2 2 1` 输出 `1`，检验连续删除头节点。
 
-C 手动 malloc/free 和调整 next；C++ forward_list 的 insert_after、remove、reverse 管理节点和释放。对照 [C99](../../src/20_linked_list.c) / [C++11](../../src/20_linked_list.cpp)：
+C 手动 malloc/free 和调整 next；C++ forward_list 的 insert_after、remove、reverse 管理节点和释放。对照 [C99](./20_linked_list.c) / [C++11](./20_linked_list.cpp)：
 ```bash
 ./build/c/20_linked_list < tests/cases/20_linked_list.in
 ./build/cpp/20_linked_list < tests/cases/20_linked_list.in

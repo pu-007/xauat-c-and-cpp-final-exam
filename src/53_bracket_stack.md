@@ -30,11 +30,11 @@
 
 时间 O(n)，额外空间 O(n)。C 用字符数组和下标 `depth` 模拟栈；C++ 使用 `std::stack<char>` 的 `push`、`top` 和 `pop`。两版都先验证输入，再判断匹配。
 
-源码：[C99](../../src/53_bracket_stack.c) / [C++11](../../src/53_bracket_stack.cpp)。在仓库根目录运行 `make -j4` 后：
+源码：[C99](./53_bracket_stack.c) / [C++11](./53_bracket_stack.cpp)。在仓库根目录运行 `make -j4` 后：
 
 ```bash
 ./build/c/53_bracket_stack < tests/cases/53_bracket_stack.in
 ./build/cpp/53_bracket_stack < tests/cases/53_bracket_stack.in
 ```
 
-继续学习：[数据结构与算法路线](../../docs/21_data_structures_algorithms.md)。
+继续学习：[数据结构与算法路线](../docs/21_data_structures_algorithms.md)。

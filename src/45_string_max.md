@@ -28,7 +28,7 @@ zoo
 
 总比较时间 O(n)，C 固定缓冲区空间 O(1)，C++ 字符串空间 O(n)。C 用 `strcmp` 比较内容、`strcpy` 复制，C++ 使用 `std::string` 与 `std::max`。输入长度限制是教学改编。
 
-完成后对照：[C99](../../src/45_string_max.c) / [C++11](../../src/45_string_max.cpp)。
+完成后对照：[C99](./45_string_max.c) / [C++11](./45_string_max.cpp)。
 
 ```bash
 ./build/c/45_string_max < tests/cases/45_string_max.in

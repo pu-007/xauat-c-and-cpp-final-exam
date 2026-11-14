@@ -31,7 +31,7 @@
 
 设输入数为 n、最大正值为 M、筛得 k 个素数，C 时间 O(n√M+k²)，C++ 时间 O(n√M+k log k)，空间 O(n)。C 手写筛选和冒泡排序；C++ 使用 `copy_if` 和 `sort`，考试指定函数或算法时应遵守题目。
 
-完成后对照：[C99](../../src/36_prime_pipeline.c) / [C++11](../../src/36_prime_pipeline.cpp)。
+完成后对照：[C99](./36_prime_pipeline.c) / [C++11](./36_prime_pipeline.cpp)。
 
 ```bash
 ./build/c/36_prime_pipeline < tests/cases/36_prime_pipeline.in

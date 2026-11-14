@@ -21,7 +21,7 @@
 
 边界练习：`0` 输出空行；`1` 后接 `-3` 输出 `-3`；`3` 后接 `2 2 1` 输出 `1 2 2`。稳定性对带附加字段的相等记录才可直接观察。
 
-C 传递数组与缓冲区；C++ 通过 vector 引用传递它们，避免复制。对照 [C99](../../src/25_merge_sort.c) / [C++11](../../src/25_merge_sort.cpp)：
+C 传递数组与缓冲区；C++ 通过 vector 引用传递它们，避免复制。对照 [C99](./25_merge_sort.c) / [C++11](./25_merge_sort.cpp)：
 ```bash
 ./build/c/25_merge_sort < tests/cases/25_merge_sort.in
 ./build/cpp/25_merge_sort < tests/cases/25_merge_sort.in

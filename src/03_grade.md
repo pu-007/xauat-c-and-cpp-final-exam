@@ -27,7 +27,7 @@ A
 3. 每个已匹配分支用 `break` 结束，防止继续执行后面的分支。检查 59/60、69/70、79/80、89/90 和 100。
 4. 时间和空间均为 O(1)。C 的 `scanf` 读取地址、`printf` 输出字符；C++ 使用 `cin`/`cout`，`switch` 与 `break` 的含义相同。
 
-完成后对照：[C99](../../src/03_grade.c) / [C++11](../../src/03_grade.cpp)。
+完成后对照：[C99](./03_grade.c) / [C++11](./03_grade.cpp)。
 
 ```bash
 ./build/c/03_grade < tests/cases/03_grade.in

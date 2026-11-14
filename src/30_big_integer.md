@@ -30,7 +30,7 @@ n=0..1000；输出精确n!
 
 C 使用 3000 位定长数组，足以容纳 2568 位的 1000!；C++ 使用 `vector` 动态追加。
 
-完成后对照：[C99](../../src/30_big_integer.c) / [C++11](../../src/30_big_integer.cpp)。
+完成后对照：[C99](./30_big_integer.c) / [C++11](./30_big_integer.cpp)。
 
 ```bash
 ./build/c/30_big_integer < tests/cases/30_big_integer.in

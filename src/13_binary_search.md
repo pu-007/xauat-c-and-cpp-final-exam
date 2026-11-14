@@ -34,7 +34,7 @@ n=0..100及目标x，再输入非降序数组；输出首个匹配下标或-1
 
 复杂度参考：查找O(log n)，含输入及验证的整个程序O(n)。
 
-完成后对照：[C99](../../src/13_binary_search.c) / [C++11](../../src/13_binary_search.cpp)。
+完成后对照：[C99](./13_binary_search.c) / [C++11](./13_binary_search.cpp)。
 
 ```bash
 ./build/c/13_binary_search < tests/cases/13_binary_search.in

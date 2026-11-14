@@ -46,7 +46,7 @@ S0 0 0 0 0
 
 该题为资料综合改编。C 使用文件指针、临时文件和稳定冒泡排序 O(n²)；C++ 使用文件流、内存流和 `stable_sort`，排序复杂度取决于实现与可用内存。存储 O(n)；二进制使用本机 `int` 表示，不保证跨平台兼容。
 
-完成后对照：[C99](../../src/42_grade_files.c) / [C++11](../../src/42_grade_files.cpp)。
+完成后对照：[C99](./42_grade_files.c) / [C++11](./42_grade_files.cpp)。
 
 ```bash
 ./build/c/42_grade_files < tests/cases/42_grade_files.in

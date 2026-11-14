@@ -37,7 +37,7 @@
 3. 初始化最大位置为 (0,0)，仅遇到更大值时更新；相等和全负矩阵也正确。
 4. 推广为 n×n 时转置和扫描 O(n²)，存储 O(n²)。C 用二维数组输出参数，C++ 用 std::array 按值返回。
 
-完成后对照：[C99](../../src/14_matrix.c) / [C++11](../../src/14_matrix.cpp)。
+完成后对照：[C99](./14_matrix.c) / [C++11](./14_matrix.cpp)。
 
 ```bash
 ./build/c/14_matrix < tests/cases/14_matrix.in

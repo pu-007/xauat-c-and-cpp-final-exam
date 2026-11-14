@@ -32,7 +32,7 @@
 
 时间和空间均为 O(n²)。C 使用定长二维数组，C++ 使用嵌套 `vector`。
 
-完成后对照：[C99](../../src/34_magic_square.c) / [C++11](../../src/34_magic_square.cpp)。
+完成后对照：[C99](./34_magic_square.c) / [C++11](./34_magic_square.cpp)。
 
 ```bash
 ./build/c/34_magic_square < tests/cases/34_magic_square.in

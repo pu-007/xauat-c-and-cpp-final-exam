@@ -48,7 +48,7 @@
 
 输出十行个人均分、一行五科均分、最后一行最高分与零起始行列；分数保留两位小数。推广到 r×c，时间和存储 O(rc)。C 使用原生二维数组，C++ 使用嵌套 `std::array`。题目为资料统计要求的改编。
 
-完成后对照：[C99](../../src/43_five_courses.c) / [C++11](../../src/43_five_courses.cpp)。
+完成后对照：[C99](./43_five_courses.c) / [C++11](./43_five_courses.cpp)。
 
 ```bash
 ./build/c/43_five_courses < tests/cases/43_five_courses.in

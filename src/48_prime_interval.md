@@ -24,7 +24,7 @@
 
 ## 编译与运行
 
-源码：[C99](../../src/48_prime_interval.c) / [C++11](../../src/48_prime_interval.cpp)。
+源码：[C99](./48_prime_interval.c) / [C++11](./48_prime_interval.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/48_prime_interval.c -o /tmp/48_c

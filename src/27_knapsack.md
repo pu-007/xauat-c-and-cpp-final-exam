@@ -23,7 +23,7 @@
 
 变式辨析：容量为 4、只有一件重量 2 价值 3 的物品时，0/1 背包答案为 3。若容量正序更新，`dp[4]` 会使用本轮刚更新的 `dp[2]`，得到错误的 6，相当于重复选择该物品。
 
-C 使用固定数组和 if 比较；C++ 使用 vector 与 std::max。对照 [C99](../../src/27_knapsack.c) / [C++11](../../src/27_knapsack.cpp)：
+C 使用固定数组和 if 比较；C++ 使用 vector 与 std::max。对照 [C99](./27_knapsack.c) / [C++11](./27_knapsack.cpp)：
 ```bash
 ./build/c/27_knapsack < tests/cases/27_knapsack.in
 ./build/cpp/27_knapsack < tests/cases/27_knapsack.in

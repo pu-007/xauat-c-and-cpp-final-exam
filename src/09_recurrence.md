@@ -27,7 +27,7 @@
 3. 分子、分母用 `double` 才能执行浮点除法；递推前先保存新值，避免覆盖旧值。
 4. 时间 O(n+20)，空间 O(1)。C 用显式类型与 `printf("%.6f", ...)`；C++ 用 `auto` 推导临时变量及 `fixed/setprecision(6)`。
 
-完成后对照：[C99](../../src/09_recurrence.c) / [C++11](../../src/09_recurrence.cpp)。
+完成后对照：[C99](./09_recurrence.c) / [C++11](./09_recurrence.cpp)。
 
 ```bash
 ./build/c/09_recurrence < tests/cases/09_recurrence.in

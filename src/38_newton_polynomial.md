@@ -28,7 +28,7 @@
 
 时间 O(k)，k≤100；空间 O(1)。C 使用 `fabs` 和 `printf`，C++ 使用 `std::abs`、流与 `setprecision`。本题固定初值，无输入边界；更换初值属于拓展。
 
-完成后对照：[C99](../../src/38_newton_polynomial.c) / [C++11](../../src/38_newton_polynomial.cpp)。
+完成后对照：[C99](./38_newton_polynomial.c) / [C++11](./38_newton_polynomial.cpp)。
 
 ```bash
 ./build/c/38_newton_polynomial < tests/cases/38_newton_polynomial.in

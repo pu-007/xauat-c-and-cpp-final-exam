@@ -21,7 +21,7 @@
 
 边界练习：输入 `0` 输出 `0`；输入 `2` 和 `-1000000 1000000` 输出 `0`。写入到读回之间必须定位，不能只检查 `feof` 后再盲读。
 
-C 用 FILE* 和显式 fclose；C++ 用带删除器的 unique_ptr 管理同一类 C 文件资源，正常路径 release 后关闭以检查错误。对照 [C99](../../src/21_files.c) / [C++11](../../src/21_files.cpp)：
+C 用 FILE* 和显式 fclose；C++ 用带删除器的 unique_ptr 管理同一类 C 文件资源，正常路径 release 后关闭以检查错误。对照 [C99](./21_files.c) / [C++11](./21_files.cpp)：
 ```bash
 ./build/c/21_files < tests/cases/21_files.in
 ./build/cpp/21_files < tests/cases/21_files.in

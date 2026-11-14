@@ -26,7 +26,7 @@
 
 C 使用固定结构体数组和稳定冒泡排序，时间 O(n²)、空间 O(n)；C++ 使用 vector 和 stable_sort，有额外缓冲时排序 O(n log n)、空间 O(n)，缓冲不足时标准允许较高时间复杂度。C 的字符数组与 C++ string 分别存姓名，结构体赋值与 C++ 对象排序都保留字段关联。
 
-对照 [C99](../../src/19_students.c) / [C++11](../../src/19_students.cpp)，在仓库根目录运行：
+对照 [C99](./19_students.c) / [C++11](./19_students.cpp)，在仓库根目录运行：
 ```bash
 ./build/c/19_students < tests/cases/19_students.in
 ./build/cpp/19_students < tests/cases/19_students.in

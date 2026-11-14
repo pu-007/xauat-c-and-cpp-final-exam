@@ -33,7 +33,7 @@ ia
 3. 输出计数、元音和排序结果，各占一行；无元音时第二行为空。
 4. C 用字符状态机及冒泡，C++ 用字符串流和 sort；两者均存储 O(n)，排序分别 O(n²)、O(n log n)。
 
-完成后对照：[C99](../../src/16_words_vowels.c) / [C++11](../../src/16_words_vowels.cpp)。
+完成后对照：[C99](./16_words_vowels.c) / [C++11](./16_words_vowels.cpp)。
 
 ```bash
 ./build/c/16_words_vowels < tests/cases/16_words_vowels.in

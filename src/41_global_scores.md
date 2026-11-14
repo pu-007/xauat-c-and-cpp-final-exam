@@ -29,7 +29,7 @@
 
 固定数据规模下时间和空间均为 O(1)；推广到 n 项时遍历 O(n)，数组 O(n)。C 使用指针输出极值，C++ 使用引用；函数内 `static` 在两次调用之间保留值。计数器是教学拓展。
 
-完成后对照：[C99](../../src/41_global_scores.c) / [C++11](../../src/41_global_scores.cpp)。
+完成后对照：[C99](./41_global_scores.c) / [C++11](./41_global_scores.cpp)。
 
 ```bash
 ./build/c/41_global_scores < tests/cases/41_global_scores.in

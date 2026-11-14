@@ -31,7 +31,7 @@ ababca
 
 时间 O(n+m)，前缀表 O(m)，输入缓冲 O(n+m)。C 用字符数组和 `fgets`；C++ 用 `string`、`getline` 和 `vector`。
 
-完成后对照：[C99](../../src/31_kmp.c) / [C++11](../../src/31_kmp.cpp)。
+完成后对照：[C99](./31_kmp.c) / [C++11](./31_kmp.cpp)。
 
 ```bash
 ./build/c/31_kmp < tests/cases/31_kmp.in

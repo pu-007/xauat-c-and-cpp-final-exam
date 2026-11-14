@@ -33,7 +33,7 @@
 3. 使用无符号数执行左移、按位与和异或，并输出十进制结果。
 4. 时间、空间均为 O(1)。宏参数可能求值多次，不能传入带副作用的表达式。
 
-完成后对照：[C99](../../src/18_storage_callback.c) / [C++11](../../src/18_storage_callback.cpp)。
+完成后对照：[C99](./18_storage_callback.c) / [C++11](./18_storage_callback.cpp)。
 
 ```bash
 ./build/c/18_storage_callback < tests/cases/18_storage_callback.in

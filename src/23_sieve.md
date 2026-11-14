@@ -20,7 +20,7 @@
 
 边界练习：输入 `0` 或 `1` 都输出空行，输入 `2` 输出 `2`；注意 0 和 1 即使未被标记也不是素数。
 
-C 的 calloc 分配并清零，最后 free；C++ 的 vector 自动管理并初始化存储。对照 [C99](../../src/23_sieve.c) / [C++11](../../src/23_sieve.cpp)：
+C 的 calloc 分配并清零，最后 free；C++ 的 vector 自动管理并初始化存储。对照 [C99](./23_sieve.c) / [C++11](./23_sieve.cpp)：
 ```bash
 ./build/c/23_sieve < tests/cases/23_sieve.in
 ./build/cpp/23_sieve < tests/cases/23_sieve.in

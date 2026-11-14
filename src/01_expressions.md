@@ -30,7 +30,7 @@
 3. 比较先于赋值：`5>6` 为 0，使 `m=0`；`&&` 短路，右侧不执行，`n` 仍为 2。后置自增先产生旧值 3，再使 `x` 变成 4。
 4. 时间和空间均为 O(1)。C 的逻辑表达式结果是整数，使用 `printf`；C++ 的逻辑结果是 `bool`，用 `cout` 默认输出 0 或 1。
 
-完成后对照：[C99](../../src/01_expressions.c) / [C++11](../../src/01_expressions.cpp)。不要把多个自增副作用写在同一个表达式中推测执行次序。
+完成后对照：[C99](./01_expressions.c) / [C++11](./01_expressions.cpp)。不要把多个自增副作用写在同一个表达式中推测执行次序。
 
 ```bash
 ./build/c/01_expressions < tests/cases/01_expressions.in

@@ -30,7 +30,7 @@
 
 平方根最多 1100 次，级数约 500000 项，空间 O(1)。C 用 `fabs` 和 `printf`；C++ 用 `std::abs` 和流格式。
 
-完成后对照：[C99](../../src/32_numerical.c) / [C++11](../../src/32_numerical.cpp)。
+完成后对照：[C99](./32_numerical.c) / [C++11](./32_numerical.cpp)。
 
 ```bash
 ./build/c/32_numerical < tests/cases/32_numerical.in

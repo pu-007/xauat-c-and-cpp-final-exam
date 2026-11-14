@@ -33,7 +33,7 @@
 
 时间和空间均为 O(行×列)。C 用两个数组模拟队列，C++ 用 `vector` 和 `queue<pair<int,int>>`。拓展：记录前驱恢复路径。
 
-完成后对照：[C99](../../src/29_bfs_maze.c) / [C++11](../../src/29_bfs_maze.cpp)。
+完成后对照：[C99](./29_bfs_maze.c) / [C++11](./29_bfs_maze.cpp)。
 
 ```bash
 ./build/c/29_bfs_maze < tests/cases/29_bfs_maze.in

@@ -19,7 +19,7 @@ examples=json.loads((R/'data/examples.json').read_text());assert len(examples)==
 for e in examples:
     for lang in ['c','cpp']:assert (R/f'src/{e["id"]}.{lang}').is_file()
     for suffix,key in [('in','sample'),('out','expected')]:assert (R/f'tests/cases/{e["id"]}.{suffix}').read_text()==e[key]
-    assert (R/f'practice/tasks/{e["id"]}.md').is_file()
+    assert (R/f'src/{e["id"]}.md').is_file()
 manifest=json.loads((R/'data/source_manifest.json').read_text());assert len(manifest)==6 and sum(s['pages'] for s in manifest)==258
 for s in manifest:
     assert hashlib.sha256((R/s['source_path']).read_bytes()).hexdigest()==s['sha256']

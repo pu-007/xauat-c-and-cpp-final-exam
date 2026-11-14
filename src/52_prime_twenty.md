@@ -33,7 +33,7 @@
 
 若有 n 个数，最大值为 M、其中 k 个素数，最坏时间 O(n√M+k²)，额外空间 O(n)。C 使用普通数组和 `scanf/printf`；C++ 使用 `std::array`、引用和输入输出流。两版都手写筛选与冒泡，方便对应原卷的函数要求。
 
-源码：[C99](../../src/52_prime_twenty.c) / [C++11](../../src/52_prime_twenty.cpp)。先运行 `make -j4`，再分别执行：
+源码：[C99](./52_prime_twenty.c) / [C++11](./52_prime_twenty.cpp)。先运行 `make -j4`，再分别执行：
 
 ```bash
 ./build/c/52_prime_twenty < tests/cases/52_prime_twenty.in

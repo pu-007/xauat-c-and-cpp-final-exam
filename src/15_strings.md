@@ -35,7 +35,7 @@ abbaxy
 
 挑战：补写有容量参数的copy；不要把字符数组等同于字符串。
 
-完成后对照：[C99](../../src/15_strings.c) / [C++11](../../src/15_strings.cpp)。
+完成后对照：[C99](./15_strings.c) / [C++11](./15_strings.cpp)。
 
 ```bash
 ./build/c/15_strings < tests/cases/15_strings.in

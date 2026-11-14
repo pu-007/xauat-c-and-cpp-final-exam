@@ -27,7 +27,7 @@ Ab9 !
 3. C 用 `int` 接收 `getchar()`，才能区分 EOF；调用字符分类函数前转换为 `unsigned char`。C++ 用 `getline` 保存一整行，再逐字节分类。
 4. 两版时间都是 O(n)；C 流式处理额外空间 O(1)，C++ 保存整行需 O(n)。本题只统计，不转换字母大小写。
 
-完成后对照：[C99](../../src/04_characters.c) / [C++11](../../src/04_characters.cpp)。
+完成后对照：[C99](./04_characters.c) / [C++11](./04_characters.cpp)。
 
 ```bash
 ./build/c/04_characters < tests/cases/04_characters.in

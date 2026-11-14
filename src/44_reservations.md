@@ -43,7 +43,7 @@ NOT_FOUND
 
 每行最多 254 字节；该菜单和输出为资料项目的改编。单次操作 O(n)，存储 O(n)。C 链表使用二级指针连接或删除结点并释放内存；C++ `vector` 自动管理内存，插入或删除后迭代器可能失效。
 
-完成后对照：[C99](../../src/44_reservations.c) / [C++11](../../src/44_reservations.cpp)。
+完成后对照：[C99](./44_reservations.c) / [C++11](./44_reservations.cpp)。
 
 ```bash
 ./build/c/44_reservations < tests/cases/44_reservations.in

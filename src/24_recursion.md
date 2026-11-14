@@ -20,7 +20,7 @@
 
 边界练习：`0 0` 输出 `1`，`0 5` 输出 `0`，`7 1` 输出 `7`。只递归一次计算半幂，避免重复求相同子问题。
 
-C 用宏定义模数及 static 函数，C++ 用 constexpr 和 auto 推导中间变量；两者的递归式相同。对照 [C99](../../src/24_recursion.c) / [C++11](../../src/24_recursion.cpp)：
+C 用宏定义模数及 static 函数，C++ 用 constexpr 和 auto 推导中间变量；两者的递归式相同。对照 [C99](./24_recursion.c) / [C++11](./24_recursion.cpp)：
 ```bash
 ./build/c/24_recursion < tests/cases/24_recursion.in
 ./build/cpp/24_recursion < tests/cases/24_recursion.in

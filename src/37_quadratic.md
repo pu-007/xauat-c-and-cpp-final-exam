@@ -30,7 +30,7 @@ REAL 1.000000 2.000000
 
 时间、空间均 O(1)。C 用 scanf/printf 和 sqrt，C++ 用流、std::sqrt 与 std::swap；直接求根公式可能有相消误差。
 
-[C99](../../src/37_quadratic.c) / [C++11](../../src/37_quadratic.cpp)
+[C99](./37_quadratic.c) / [C++11](./37_quadratic.cpp)
 
 ```bash
 ./build/c/37_quadratic < tests/cases/37_quadratic.in

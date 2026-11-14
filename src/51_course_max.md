@@ -39,7 +39,7 @@
 
 创建含三个元素的一维最高分数组，初始值设为 0；逐个读入成绩并与对应课程当前最高分比较，较大时更新。时间 O(20×3)，额外空间 O(3)。C 使用 `scanf` 和 `printf`，C++ 使用输入输出流。
 
-源码：[C99](../../src/51_course_max.c) / [C++11](../../src/51_course_max.cpp)。
+源码：[C99](./51_course_max.c) / [C++11](./51_course_max.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/51_course_max.c -o /tmp/51_course_max_c

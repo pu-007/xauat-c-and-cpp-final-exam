@@ -27,7 +27,7 @@
 3. 使用 `unsigned long long` 保存结果；本题约定的 0～20 范围内，阶乘和累加和均能表示。C 的 `%llu` 对应此类型；C++ 的输出流根据变量类型输出。
 4. 时间 O(n)，额外空间 O(1)。对照输入 0、1、20，检查初始化与上界。
 
-完成后对照：[C99](../../src/05_factorial_sum.c) / [C++11](../../src/05_factorial_sum.cpp)。
+完成后对照：[C99](./05_factorial_sum.c) / [C++11](./05_factorial_sum.cpp)。
 
 ```bash
 ./build/c/05_factorial_sum < tests/cases/05_factorial_sum.in

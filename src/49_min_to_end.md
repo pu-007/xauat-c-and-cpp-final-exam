@@ -23,7 +23,7 @@
 
 从下标 0 开始记录最小位置，扫描后续元素，仅在发现严格更小的值时更新，从而保留首次位置；然后交换该位置和末尾。时间 O(n)，数组空间 O(n)。C 使用定长数组，C++ 使用 vector 和引用。
 
-源码：[C99](../../src/49_min_to_end.c) / [C++11](../../src/49_min_to_end.cpp)。
+源码：[C99](./49_min_to_end.c) / [C++11](./49_min_to_end.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/49_min_to_end.c -o /tmp/49_min_to_end_c

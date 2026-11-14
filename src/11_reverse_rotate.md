@@ -35,7 +35,7 @@ n=1..100,k=0..10^9，再输入n个int；先右移k位输出，再将最小换到
 
 时间 O(n)，数组存储 O(n)；C 版旋转操作额外空间 O(1)。
 
-完成后对照：[C99](../../src/11_reverse_rotate.c) / [C++11](../../src/11_reverse_rotate.cpp)。
+完成后对照：[C99](./11_reverse_rotate.c) / [C++11](./11_reverse_rotate.cpp)。
 
 ```bash
 ./build/c/11_reverse_rotate < tests/cases/11_reverse_rotate.in

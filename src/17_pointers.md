@@ -34,7 +34,7 @@
 3. 区分 `*p++` 与 `(*p)++`；使用指向含 3 个整数的数组的指针访问矩阵元素。
 4. 操作和存储均为 O(1)。指针只在数组合法范围内移动和解引用。
 
-完成后对照：[C99](../../src/17_pointers.c) / [C++11](../../src/17_pointers.cpp)。
+完成后对照：[C99](./17_pointers.c) / [C++11](./17_pointers.cpp)。
 
 ```bash
 ./build/c/17_pointers < tests/cases/17_pointers.in

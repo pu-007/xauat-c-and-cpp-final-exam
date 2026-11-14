@@ -28,7 +28,7 @@ def collect():
     all_md={p for p in ROOT.rglob('*.md') if included(p)}
     ordered=[ROOT/'README.md']+sorted((ROOT/'docs').glob('*.md'))+[ROOT/'raw/README.md']
     ordered += [ROOT/'practice/README.md',ROOT/'practice/mock_exam.md',ROOT/'practice/mock_answers.md',ROOT/'practice/s3_solutions.md',ROOT/'practice/mistakes.md',ROOT/'labs/report_template.md']
-    ordered += sorted((ROOT/'practice/tasks').glob('*.md'))
+    ordered += sorted((ROOT/'src').glob('*.md'))
     ordered += sorted(all_md-set(ordered))
     docs=list(dict.fromkeys(p for p in ordered if p in all_md))
     code=[]

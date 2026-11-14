@@ -30,7 +30,7 @@
 
 矩阵元素须在 `int` 范围内；1×1 矩阵的唯一元素必是鞍点。时间 O(rc(r+c))，存储 O(rc)。C 用固定二维数组，C++ 用 `vector` 动态分配矩阵。
 
-完成后对照：[C99](../../src/39_saddle.c) / [C++11](../../src/39_saddle.cpp)。
+完成后对照：[C99](./39_saddle.c) / [C++11](./39_saddle.cpp)。
 
 ```bash
 ./build/c/39_saddle < tests/cases/39_saddle.in

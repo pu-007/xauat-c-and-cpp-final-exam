@@ -30,7 +30,7 @@
 
 最多遍历 11 个月，时间和空间 O(1)。C 使用 `struct Date` 和普通数组，C++ 使用 `Date` 和 `std::array`。
 
-完成后对照：[C99](../../src/33_calendar.c) / [C++11](../../src/33_calendar.cpp)。
+完成后对照：[C99](./33_calendar.c) / [C++11](./33_calendar.cpp)。
 
 ```bash
 ./build/c/33_calendar < tests/cases/33_calendar.in

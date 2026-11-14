@@ -28,7 +28,7 @@
 3. 枚举100～999，拆出百位、十位和个位；三位的立方和等于原数时输出，结果为 `153 370 371 407`。
 4. 数位处理时间 O(log(n+1))，枚举三位数为固定工作量，额外空间 O(1)。C 用 `scanf/printf` 和整数标记；C++ 用 `cin/cout` 和 `bool`。
 
-完成后对照：[C99](../../src/06_digits.c) / [C++11](../../src/06_digits.cpp)。只需水仙花数的原卷练习见[46](46_narcissistic.md)。
+完成后对照：[C99](./06_digits.c) / [C++11](./06_digits.cpp)。只需水仙花数的原卷练习见[46](46_narcissistic.md)。
 
 ```bash
 ./build/c/06_digits < tests/cases/06_digits.in

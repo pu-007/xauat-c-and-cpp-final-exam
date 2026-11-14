@@ -34,7 +34,7 @@ n=1..100，再输入n个绝对值<=10^6的整数；输出最小值及首个下�
 
 时间 O(n)，数组存储 O(n)。
 
-完成后对照：[C99](../../src/10_array_stats.c) / [C++11](../../src/10_array_stats.cpp)。
+完成后对照：[C99](./10_array_stats.c) / [C++11](./10_array_stats.cpp)。
 
 ```bash
 ./build/c/10_array_stats < tests/cases/10_array_stats.in

@@ -24,7 +24,7 @@
 
 ## 编译与运行
 
-源码：[C99](../../src/46_narcissistic.c) / [C++11](../../src/46_narcissistic.cpp)。
+源码：[C99](./46_narcissistic.c) / [C++11](./46_narcissistic.cpp)。
 
 ```bash
 cc -std=c99 -Wall -Wextra -pedantic src/46_narcissistic.c -o /tmp/46_c

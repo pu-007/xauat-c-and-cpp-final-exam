@@ -21,7 +21,7 @@
 
 边界练习：`3 2` 后接 `-5 -2 -3` 输出 `-5 1`；`3 2` 后接 `1 1 1` 输出 `2 0`；当 k=n 时只有起点 0。
 
-C 使用固定前缀和数组和 `scanf`；C++ 用 `vector` 保存输入、用 `cin` 读取，并通过滑窗复用上一次窗口和。对照 [C99](../../src/26_prefix_window.c) / [C++11](../../src/26_prefix_window.cpp)：
+C 使用固定前缀和数组和 `scanf`；C++ 用 `vector` 保存输入、用 `cin` 读取，并通过滑窗复用上一次窗口和。对照 [C99](./26_prefix_window.c) / [C++11](./26_prefix_window.cpp)：
 ```bash
 ./build/c/26_prefix_window < tests/cases/26_prefix_window.in
 ./build/cpp/26_prefix_window < tests/cases/26_prefix_window.in

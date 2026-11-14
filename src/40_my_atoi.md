@@ -28,7 +28,7 @@
 
 时间 O(n)，C 输入缓冲区空间 O(1)（固定上限），C++ 字符串空间 O(n)。C++ 先检查完整格式，再用 `std::stoi` 和异常检查范围；C 使用指针输出结果。此安全约束是原题的拓展。
 
-完成后对照：[C99](../../src/40_my_atoi.c) / [C++11](../../src/40_my_atoi.cpp)。
+完成后对照：[C99](./40_my_atoi.c) / [C++11](./40_my_atoi.cpp)。
 
 ```bash
 ./build/c/40_my_atoi < tests/cases/40_my_atoi.in

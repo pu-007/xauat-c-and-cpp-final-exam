@@ -20,7 +20,7 @@ n 人按 0～n-1 围成一圈，从 0 号开始报 1，顺序报到 k 的人出�
 
 边界练习：`1 100000` 输出 `0`；`5 1` 输出 `4`。若题目要求从 1 编号，最后将本程序结果加 1。
 
-C 用 scanf/printf，C++ 用 cin/cout，递推相同。对照 [C99](../../src/22_josephus.c) / [C++11](../../src/22_josephus.cpp)：
+C 用 scanf/printf，C++ 用 cin/cout，递推相同。对照 [C99](./22_josephus.c) / [C++11](./22_josephus.cpp)：
 ```bash
 printf '5 3\n' | ./build/c/22_josephus
 printf '5 3\n' | ./build/cpp/22_josephus
